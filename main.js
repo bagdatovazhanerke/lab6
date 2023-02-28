@@ -1,9 +1,16 @@
-//2.	Write a function that finds a perimeter of the rectangle given by two sides.
-function areaRectangle(a, b) {
-  console.log('Rectangle permimeter =', 2 * (a + b));
+//9.	Write a function to check whether a given number is positive or negative.
+function checkNumber(number) {
+  if (number > 0) {
+    return "Positive";
+  } else if (number < 0) {
+    return "Negative";
+  } else {
+    return "Zero";
+  }
 }
-
-areaRectangle(2.5, 3.14);
+console.log(checkNumber(10)); 
+console.log(checkNumber(-8)); 
+console.log(checkNumber(0)); 
 
 //3.	Write a function that finds an area of a circle given its radius (PI=3.14).
 function circle(radius)
